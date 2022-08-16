@@ -26,18 +26,18 @@ public class Leapyear {
 	public static void main(String[] args) {
 		
 	Leapyear l=new Leapyear();
-    Scanner s=new Scanner(System.in);
-    System.out.println("Enter the year : ");
-    int y=s.nextInt();
-    int len = String.valueOf(y).length();
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the year : ");
+        int y=s.nextInt();
+        int len = String.valueOf(y).length();
 	if(len==4)
 	{
-      l.lp(y);
+                l.lp(y);
 	}
 	else
 	{
 		System.out.println("pls..enter properly..");
 	}
-	}
+    }
 
 }
