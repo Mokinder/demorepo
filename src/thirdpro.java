@@ -10,16 +10,5 @@ public class thirdpro {
         for(int i=0;i<a.length-1;i++){
             System.out.println(a[i]);
         }
-        int o=0;
-        int e=0;
-        for (int i=0;i<a.length-1;i++){
-            if(i%2==0){
-                e++;
-            }
-            else {
-                o++;
-            }
-        }
-        System.out.println("no of odd "+o+" no of even "+e);
     }
 }
